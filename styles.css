@@ -182,6 +182,22 @@ body {
   max-width: 900px;
 }
 
+.hero-icon-wrap {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 24px;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.28);
+}
+
+.hero-icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .eyebrow {
   display: inline-block;
   font-size: 11px;
@@ -1894,6 +1910,12 @@ footer {
   .hero-content {
     padding: 100px 20px 0;
     max-width: 100%;
+  }
+
+  .hero-icon-wrap {
+    width: 56px;
+    height: 56px;
+    margin-bottom: 16px;
   }
 
   .hero-content h1 {
