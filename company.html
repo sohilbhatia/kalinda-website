@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalinda — Company</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav id="nav" class="scrolled">
+    <a href="index.html" class="nav-logo">
+      <img src="kalinda_white.png" alt="Kalinda" class="nav-logo-img" />
+    </a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link">Product</a></li>
+      <li><a href="company.html" class="nav-link active">Company</a></li>
+      <li><a href="https://calendly.com/kalinda-ai/book-a-demo" target="_blank" rel="noopener" class="nav-cta">Request Demo</a></li>
+    </ul>
+  </nav>
+
+  <!-- Letter from the founders -->
+  <section class="company-letter">
+    <div class="company-inner">
+      <div class="company-label-row">
+        <span class="company-dot"></span>
+        <span class="company-label">From the Founders</span>
+        <span class="company-rule"></span>
+      </div>
+
+      <div class="company-grid">
+        <div class="company-text">
+          <p>Over the next decade, the way mass tort law firms vet, qualify, and review claims will fundamentally change with AI. The process of understanding medical records, organizing claimant data, and identifying key facts will become faster, more consistent, and far more accessible to every firm.</p>
+
+          <p>AI will not change the heart of this work — it will enhance it. By supporting attorneys, paralegals, and review teams, it helps firms focus on strategy and advocacy rather than manual organization. The result is more accurate vetting, faster decision-making, and a stronger foundation for justice.</p>
+
+          <p>This transformation is already underway. The introduction of Federal Rule 16.1, along with the growing use of Plaintiff Fact Sheets and Lone Pine Orders, reflects the industry's push for earlier and more efficient vetting. Weak claims drag down strong ones — and early data clarity benefits everyone.</p>
+
+          <p>We built Kalinda to meet this moment. Our team of former AI researchers has worked on systems that read, structure, and analyze complex data at scale — and we're applying that expertise to mass tort law. Kalinda helps firms quickly surface the most relevant medical and factual evidence so they can make informed, defensible decisions about every claim.</p>
+
+          <p>We aim to be the trusted AI partner for mass tort law firms — the first call when you're facing a mountain of cases, pressed against a litigation deadline, or need to understand your inventory before leadership meetings or court submissions.</p>
+
+          <p>We're excited to work with you!</p>
+
+          <div class="company-sig">
+            <span class="company-sig-names">Sayan Bhatia &amp; Sohil Bhatia</span>
+            <span class="company-sig-title">Co-Founders, Kalinda</span>
+          </div>
+        </div>
+
+        <div class="company-photo-wrap">
+          <img src="founders.png" alt="Sayan Bhatia and Sohil Bhatia, Co-Founders of Kalinda" class="company-photo" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <div class="dark-canvas">
+    <footer id="contact">
+      <div class="footer-intro">
+        <p class="footer-tagline">Join active leadership firms using Kalinda.</p>
+        <a href="https://calendly.com/kalinda-ai/book-a-demo" target="_blank" rel="noopener" class="btn-white">Request a Demo</a>
+      </div>
+      <div class="footer-top">
+        <nav class="footer-nav">
+          <div class="footer-col">
+            <a href="https://trust.delve.co/kalinda" target="_blank" rel="noopener">Trust Center</a>
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="mailto:hello@kalinda.ai">Contact Us</a>
+          </div>
+        </nav>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; Kalinda Inc. 2026. All rights reserved.</p>
+      </div>
+      <div class="footer-brand" aria-hidden="true">
+        <span class="footer-brand-text">kalinda</span>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Nav scroll behavior (keep scrolled state on company page)
+    var nav = document.getElementById('nav');
+    window.addEventListener('scroll', function () {
+      nav.classList.toggle('scrolled', true);
+    }, { passive: true });
+  </script>
+</body>
+</html>

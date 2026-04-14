@@ -1,0 +1,290 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Kalinda" [ref=e3] [cursor=pointer]:
+      - /url: index.html
+      - img "Kalinda" [ref=e4]
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Product" [ref=e7] [cursor=pointer]:
+          - /url: index.html
+      - listitem [ref=e8]:
+        - link "Company" [ref=e9] [cursor=pointer]:
+          - /url: company.html
+      - listitem [ref=e10]:
+        - link "Request Demo" [ref=e11] [cursor=pointer]:
+          - /url: https://calendly.com/kalinda-ai/book-a-demo
+  - generic [ref=e13]:
+    - heading "Privacy Policy" [level=1] [ref=e14]
+    - paragraph [ref=e15]: "Effective Date: October 4, 2025"
+    - paragraph [ref=e16]: Kalinda Inc. ("Kalinda," "we," "us," or "our") is committed to protecting the privacy and security of personal information we collect, use, and process through our cloud-based AI platform (the "Platform"). The Platform helps mass tort law firms qualify potential cases by analyzing plaintiff records, generating reports, and providing a dashboard for case management. By using the Platform, you agree to the practices described in this Privacy Policy.
+    - paragraph [ref=e17]: This Privacy Policy applies to all users of the Platform, including our customers (law firms) and any individuals whose personal information is contained in the records uploaded to the Platform (e.g., plaintiffs). It describes our privacy practices in accordance with applicable laws, including the Health Insurance Portability and Accountability Act ("HIPAA") and its implementing regulations, as we process Protected Health Information ("PHI") as a subcontractor Business Associate of our law firm customers. We also comply with applicable U.S. state privacy laws, biometric privacy laws, and health privacy laws that supplement HIPAA. For data that our law firm customers upload to the Platform, Kalinda acts as a "service provider" or processor, processing such data only on behalf of and at the direction of our customer. In those cases, the law firm is the data controller responsible for the data. When Kalinda collects personal information directly from users (for example, account registration or billing information), Kalinda is acting as a data controller (a "business" under state law) for that information.
+    - paragraph [ref=e18]:
+      - text: If you have questions about this Privacy Policy, please contact us at
+      - link "security@kalinda.ai" [ref=e19] [cursor=pointer]:
+        - /url: mailto:security@kalinda.ai
+      - text: .
+    - heading "Definitions" [level=2] [ref=e20]
+    - paragraph [ref=e21]: "For clarity and consistency, the following terms used in this Privacy Policy have the meanings set forth below:"
+    - list [ref=e22]:
+      - listitem [ref=e23]:
+        - strong [ref=e24]: "Business Associate:"
+        - text: As defined under HIPAA (45 C.F.R. § 160.103), an entity that performs functions or activities on behalf of a covered entity involving the use or disclosure of PHI.
+      - listitem [ref=e25]:
+        - strong [ref=e26]: "Covered Entity:"
+        - text: As defined under HIPAA (45 C.F.R. § 160.103), typically health plans, healthcare clearinghouses, or healthcare providers.
+      - listitem [ref=e27]:
+        - strong [ref=e28]: "Personal Information or PII (Personally Identifiable Information):"
+        - text: Any information that identifies or can be used to identify a specific individual, such as names, addresses, email addresses, phone numbers, or other identifiers, as defined under applicable privacy laws (e.g., CCPA/CPRA).
+      - listitem [ref=e29]:
+        - strong [ref=e30]: "Protected Health Information or PHI:"
+        - text: As defined under HIPAA (45 C.F.R. § 160.103), individually identifiable health information transmitted or maintained in any form or medium, including medical records, health status, or treatment details.
+      - listitem [ref=e31]:
+        - strong [ref=e32]: "Sensitive Data:"
+        - text: Categories of personal information requiring heightened protection, such as health data, biometric information, data concerning minors, or education records, as defined under laws like CCPA/CPRA, MHMDA, or BIPA.
+      - listitem [ref=e33]:
+        - strong [ref=e34]: "Biometric Data:"
+        - text: Unique biological or behavioral characteristics used for identification, such as fingerprints, facial geometry, voiceprints, or retina scans, as regulated under laws like BIPA or CCPA/CPRA.
+      - listitem [ref=e35]:
+        - strong [ref=e36]: "Telemetry Data:"
+        - text: Usage and analytics data collected from the Platform, including interaction patterns and aggregated insights, which may not be fully anonymized.
+      - listitem [ref=e37]:
+        - strong [ref=e38]: "Service Providers:"
+        - text: Third parties (e.g., AWS, Microsoft Azure OpenAI, Stripe) that assist us in providing the Platform, bound by confidentiality and security obligations.
+      - listitem [ref=e39]:
+        - strong [ref=e40]: "Platform:"
+        - text: Our cloud-based AI service for processing plaintiff records, generating reports, and case management.
+    - heading "1. Information We Collect" [level=2] [ref=e41]
+    - paragraph [ref=e42]: "We collect information to provide, maintain, and improve the Platform. The types of information we collect include:"
+    - heading "Personal Information from Users" [level=3] [ref=e43]
+    - list [ref=e44]:
+      - listitem [ref=e45]:
+        - strong [ref=e46]: "Account and Contact Information:"
+        - text: When you create an account or subscribe to the Platform, we collect your email address and other contact details you provide.
+      - listitem [ref=e47]:
+        - strong [ref=e48]: "Payment Information:"
+        - text: We process payments through Stripe, a third-party payment processor. We do not store credit card numbers or other sensitive payment details on our servers; Stripe manages all payment processing and is compliant with the Payment Card Industry Data Security Standard ("PCI DSS").
+    - heading "Information from Customer Uploads" [level=3] [ref=e49]
+    - list [ref=e50]:
+      - listitem [ref=e51]:
+        - strong [ref=e52]: "Plaintiff Records:"
+        - text: "Our law firm customers upload records related to potential cases, which may include:"
+        - list [ref=e53]:
+          - listitem [ref=e54]: Names, addresses, email addresses, phone numbers, and other identifiers (Personally Identifiable Information or "PII").
+          - listitem [ref=e55]: Medical records, health information, and treatment details (Protected Health Information or "PHI" under HIPAA).
+          - listitem [ref=e56]: For certain lawsuits, this may include information about minors (intentionally for ages 13–18 and inadvertently for those under 13), education/school records, or other sensitive data.
+    - paragraph [ref=e57]: We do not control what information customers upload, but we require customers, through our Terms of Service, to ensure uploads comply with applicable laws and their obligations to data subjects.
+    - heading "Usage and Technical Information" [level=3] [ref=e58]
+    - list [ref=e59]:
+      - listitem [ref=e60]:
+        - strong [ref=e61]: "Telemetry and Analytics:"
+        - text: We collect usage data from the Platform (e.g., how often features are used, interaction patterns) to improve our services. This data may include aggregated insights from customer usage and is not fully de-identified (it may be linked to user accounts), but it does not include the contents of plaintiff records.
+      - listitem [ref=e62]:
+        - strong [ref=e63]: "Log Data:"
+        - text: We automatically collect logs of system events such as successful and failed logins, security events, changes to configurations, and access to data. These logs help us monitor the Platform for security and performance.
+    - paragraph [ref=e64]: We do not collect information from children under 13 intentionally, except inadvertently through customer uploads as described above. We do not engage in data mapping exercises yet but plan to implement them as part of our compliance efforts.
+    - heading "Cookies and Similar Technologies" [level=3] [ref=e65]
+    - paragraph [ref=e66]: We use cookies and similar technologies sparingly and only as necessary to operate our website and Platform effectively.
+    - list [ref=e67]:
+      - listitem [ref=e68]:
+        - strong [ref=e69]: "Essential Cookies:"
+        - text: Necessary for basic functionality such as session management and secure login.
+      - listitem [ref=e70]:
+        - strong [ref=e71]: "Analytics Cookies:"
+        - text: We may use limited analytics cookies to collect aggregated, non-personal data about Platform usage. These do not identify individual users.
+      - listitem [ref=e72]:
+        - strong [ref=e73]: "Third-Party Cookies:"
+        - text: Our third-party service providers (e.g., Stripe) may set cookies on our behalf. We do not use third-party advertising or tracking cookies.
+    - paragraph [ref=e74]: We do not use cookies, pixels, tags, or beacons to track website interactions, capture IP addresses, or collect other personal information for marketing or profiling purposes. No sensitive personal data or PHI is stored in cookies or local storage.
+    - paragraph [ref=e75]: You can manage or disable cookies through your browser settings. We do not respond to 'Do Not Track' signals as we do not engage in tracking. However, where required by applicable state law (e.g., CCPA/CPRA, CPA, CTDPA), we will recognize and process 'Universal Opt-Out Mechanisms' (UOM), such as the Global Privacy Control (GPC), as a valid request to opt out of the sale or sharing of personal information.
+    - heading "2. How We Use Information" [level=2] [ref=e76]
+    - list [ref=e77]:
+      - listitem [ref=e78]:
+        - strong [ref=e79]: "Providing the Platform:"
+        - text: To process uploaded records, extract structured data points using AI (powered by Microsoft Azure OpenAI), generate reports, and maintain the dashboard for case viewing.
+      - listitem [ref=e80]:
+        - strong [ref=e81]: "Billing and Administration:"
+        - text: To manage subscriptions and process payments via Stripe.
+      - listitem [ref=e82]:
+        - strong [ref=e83]: "Support and Maintenance:"
+        - text: To respond to technical issues, troubleshoot access problems, and ensure Platform stability.
+      - listitem [ref=e84]:
+        - strong [ref=e85]: "Security and Compliance:"
+        - text: To monitor access, detect unauthorized activity, and comply with legal obligations, including HIPAA and state privacy laws.
+      - listitem [ref=e86]:
+        - strong [ref=e87]: "Improvement:"
+        - text: To analyze usage data for product enhancements. We never use customer data to train AI models.
+      - listitem [ref=e88]:
+        - strong [ref=e89]: "Legal and Safety:"
+        - text: To protect against fraud, abuse, or illegal use of the Platform, and to respond to legal requests.
+    - paragraph [ref=e90]: PHI is processed solely at the direction of our law firm customers for organizing, reviewing, and reporting on plaintiff records. We do not engage in automated decision-making that affects individuals. All uses are limited to providing the Service or resolving technical issues.
+    - heading "3. Sharing and Disclosure of Information" [level=2] [ref=e91]
+    - paragraph [ref=e92]: "We do not sell, rent, or share personal information for marketing or cross-context behavioral advertising purposes. We share information only as necessary to provide the Platform and comply with laws:"
+    - list [ref=e93]:
+      - listitem [ref=e94]:
+        - strong [ref=e95]: "Service Providers:"
+        - text: We may share personal information with trusted third parties such as AWS (cloud hosting), Microsoft Azure OpenAI (AI processing), and Stripe (payments). These providers are bound by confidentiality and security obligations, including Business Associate Agreements for PHI.
+      - listitem [ref=e96]:
+        - strong [ref=e97]: "Business Transfers:"
+        - text: In the event of a merger, acquisition, or sale of assets, personal information may be transferred, subject to equivalent protections.
+      - listitem [ref=e98]:
+        - strong [ref=e99]: "Legal Requirements:"
+        - text: If required by law, regulation, or legal process, we may disclose information. We will only disclose what is legally required and will, when feasible, notify the affected customer in advance.
+      - listitem [ref=e100]:
+        - strong [ref=e101]: "With Consent:"
+        - text: We may disclose personal information with your explicit consent or at the direction of our law firm customers.
+    - paragraph [ref=e102]: Customer data is siloed; each customer's data is stored and processed in separate buckets or compute pools to prevent access by others. We never share customer data with other companies for their own purposes.
+    - heading "4. Data Security" [level=2] [ref=e103]
+    - paragraph [ref=e104]: "We prioritize the security of personal information, including PHI, and implement administrative, technical, and physical safeguards appropriate to the data we handle. Our program includes:"
+    - list [ref=e105]:
+      - listitem [ref=e106]:
+        - strong [ref=e107]: "Encryption:"
+        - text: All data is encrypted at rest and in transit using strong encryption standards.
+      - listitem [ref=e108]:
+        - strong [ref=e109]: "Access Controls:"
+        - text: Role-based, least-privilege access; multi-factor authentication; centralized logging and continuous monitoring.
+      - listitem [ref=e110]:
+        - strong [ref=e111]: "Testing and Monitoring:"
+        - text: Regular security testing (including penetration testing and vulnerability management), threat detection and prevention, firewalling and network segmentation, and routine, resilient backups.
+      - listitem [ref=e112]:
+        - strong [ref=e113]: "Incident Response:"
+        - text: A documented incident response process covering detection, containment, investigation, remediation, and legally required notifications.
+      - listitem [ref=e114]:
+        - strong [ref=e115]: "Assurance:"
+        - text: Controls are designed to meet applicable legal and industry standards (including the HIPAA Security Rule). We undergo independent assessments and can provide summary reports under NDA upon request.
+      - listitem [ref=e116]:
+        - strong [ref=e117]: "Secure Development & Data Handling:"
+        - text: Secure software development lifecycle practices and restrictions that prevent storage of personal information in client-side local storage or cookies.
+    - paragraph [ref=e118]: Although we implement robust measures, no system is impenetrable. In the event of a security incident involving PHI, we will notify affected customers in accordance with HIPAA requirements. For incidents involving personal information not subject to HIPAA, we will provide notifications as required under applicable state data breach notification laws.
+    - heading "5. Data Retention and Deletion" [level=2] [ref=e119]
+    - paragraph [ref=e120]: "We retain personal information only as long as necessary to provide our services or fulfill legal obligations:"
+    - list [ref=e121]:
+      - listitem [ref=e122]: Uploaded records and generated reports are retained until the customer requests deletion or upon termination of the agreement.
+      - listitem [ref=e123]: Account and billing information is retained for 7 years post-termination for tax and audit purposes.
+      - listitem [ref=e124]: Usage and security logs are retained for 1 year.
+    - paragraph [ref=e125]:
+      - text: Customers can request deletion of their data directly through the Platform or by emailing
+      - link "security@kalinda.ai" [ref=e126] [cursor=pointer]:
+        - /url: mailto:security@kalinda.ai
+      - text: . Upon a verified deletion request, or upon termination of our services, we will delete (or, if requested, return) that customer's personal data within 30 days, except where a longer retention is required by law or necessary for legitimate business purposes.
+    - heading "6. Children's Privacy" [level=2] [ref=e127]
+    - paragraph [ref=e128]: The Platform is not intended for children under 13, and we do not knowingly collect personal information from children under 13 (consistent with COPPA) except when it may be included inadvertently through customer uploads for certain lawsuits. If we become aware that we have received personal information directly from a child under 13, we will delete it promptly. For data on minors aged 13–18 uploaded for specific lawsuits, we process it only as directed by our law firm customers and in compliance with applicable laws. We apply the same strict security measures to minors' data as we do to other data.
+    - heading "7. Your Rights and Choices" [level=2] [ref=e129]
+    - paragraph [ref=e130]: "Depending on your location and applicable laws (e.g., HIPAA, CCPA/CPRA, and similar state laws), you may have certain rights regarding your personal information:"
+    - list [ref=e131]:
+      - listitem [ref=e132]:
+        - strong [ref=e133]: "Access:"
+        - text: The right to know what personal information we maintain about you and to obtain a copy in a portable format.
+      - listitem [ref=e134]:
+        - strong [ref=e135]: "Correction:"
+        - text: The right to request correction of inaccurate or outdated personal information.
+      - listitem [ref=e136]:
+        - strong [ref=e137]: "Deletion:"
+        - text: The right to request deletion of your personal information (subject to certain exceptions).
+      - listitem [ref=e138]:
+        - strong [ref=e139]: "Opt-Out:"
+        - text: The right to opt out of certain types of processing or sharing. We do not sell personal data or use it for targeted advertising.
+      - listitem [ref=e140]:
+        - strong [ref=e141]: "Data Portability:"
+        - text: The right to receive your personal information in a structured, commonly used, and machine-readable format.
+    - paragraph [ref=e142]: If your personal information is in records uploaded by a law firm customer, that law firm is responsible for fulfilling your privacy requests regarding that information. You may need to contact the law firm directly.
+    - paragraph [ref=e143]:
+      - text: To exercise any applicable rights, contact us at
+      - link "security@kalinda.ai" [ref=e144] [cursor=pointer]:
+        - /url: mailto:security@kalinda.ai
+      - text: . We will respond to verifiable requests within 45 days, or sooner if required by law. If we need more time (up to an additional 45 days), we will inform you of the extension. If you disagree with our decision, you may appeal by contacting us again. We will not retaliate against you for exercising your privacy rights.
+    - heading "8. HIPAA Notice for Protected Health Information" [level=2] [ref=e145]
+    - paragraph [ref=e146]: "As a subcontracted Business Associate under HIPAA, we abide by the following in handling PHI:"
+    - list [ref=e147]:
+      - listitem [ref=e148]:
+        - strong [ref=e149]: "Permitted Uses:"
+        - text: We use or disclose PHI only as permitted by our Business Associate Agreement ("BAA") with our law firm customer or as required by law, solely to perform services for our customer.
+      - listitem [ref=e150]:
+        - strong [ref=e151]: "Minimum Necessary:"
+        - text: We limit our use and disclosure of PHI to the minimum necessary to accomplish the intended purpose, as required by the HIPAA Privacy Rule.
+      - listitem [ref=e152]:
+        - strong [ref=e153]: "Safeguards:"
+        - text: We implement administrative, physical, and technical safeguards for PHI in accordance with the HIPAA Security Rule (45 C.F.R. Parts 160 and 164).
+      - listitem [ref=e154]:
+        - strong [ref=e155]: "Breach Notification:"
+        - text: In the event of a breach of unsecured PHI, we will notify the law firms without unreasonable delay and in no case later than 60 days after discovery, as required by 45 C.F.R. § 164.410.
+      - listitem [ref=e156]:
+        - strong [ref=e157]: "Subcontractors:"
+        - text: Any subcontractor that may access PHI is also a Business Associate. We ensure such subcontractors sign BAAs or equivalent agreements.
+      - listitem [ref=e158]:
+        - strong [ref=e159]: "Individual Rights:"
+        - text: We assist our covered entity customers as needed in fulfilling individual rights under HIPAA (e.g., providing individuals with copies of their records stored on our Platform).
+    - paragraph [ref=e160]: A copy of our standard BAA is available upon request. This Privacy Policy supplements, but does not replace, the BAA.
+    - heading "9. Artificial Intelligence (AI) Use and Compliance" [level=2] [ref=e161]
+    - paragraph [ref=e162]: We use AI technologies to extract structured data points from uploaded medical and legal records, generating reports that summarize lawsuit-relevant information, powered by Microsoft Azure OpenAI.
+    - list [ref=e163]:
+      - listitem [ref=e164]:
+        - strong [ref=e165]: "AI Processing:"
+        - text: Uploaded data, including PHI and PII, is passed through AI models solely to generate reports at the direction of our law firm customers. We do not use customer data to train, retrain, or improve AI models.
+      - listitem [ref=e166]:
+        - strong [ref=e167]: "No Automated Decision-Making:"
+        - text: Our AI does not engage in automated decision-making that produces legal effects or similarly significant effects on individuals. AI-generated outputs are summaries to aid human decision-makers; the Platform does not make final decisions about eligibility, compensation, or legal rights.
+      - listitem [ref=e168]:
+        - strong [ref=e169]: "Biometrics:"
+        - text: We do not intentionally collect or process biometric data. If biometric information is incidentally included in uploaded records, it is processed only as part of the overall record analysis and subject to the same protections as other PHI/PII.
+      - listitem [ref=e170]:
+        - strong [ref=e171]: "Risks and Safeguards:"
+        - text: We mitigate risks through strong encryption in transit, siloed processing, and contractual obligations with Microsoft Azure OpenAI to prevent unauthorized use or retention of data.
+      - listitem [ref=e172]:
+        - strong [ref=e173]: "Compliance with AI Laws:"
+        - text: We monitor and comply with emerging AI regulations, including state laws on high-risk AI systems (e.g., Colorado AI Act).
+    - paragraph [ref=e174]:
+      - text: If you have concerns about AI processing, contact us at
+      - link "security@kalinda.ai" [ref=e175] [cursor=pointer]:
+        - /url: mailto:security@kalinda.ai
+      - text: .
+    - heading "10. U.S. State-Specific Privacy, Biometrics, and HIPAA-Related Laws" [level=2] [ref=e176]
+    - paragraph [ref=e177]: We operate in the United States and comply with state-specific laws in addition to federal requirements like HIPAA. We do not sell personal information or process data for targeted advertising.
+    - heading "Comprehensive Consumer Privacy Laws" [level=3] [ref=e178]
+    - paragraph [ref=e179]: "We comply with applicable state consumer privacy laws, including: CCPA/CPRA (California), VCDPA (Virginia), CPA (Colorado), CTDPA (Connecticut), UCPA (Utah), ICDPA (Iowa), INCDPA (Indiana), OCPA (Oregon), TDPSA (Texas), MCDPA (Montana), Florida Digital Bill of Rights, DPDPA (Delaware), NJDPA (New Jersey), New Hampshire Privacy Act, NDPA (Nebraska), TIPA (Tennessee), MCDPA (Minnesota), and MODPA (Maryland)."
+    - list [ref=e180]:
+      - listitem [ref=e181]:
+        - strong [ref=e182]: "Requests:"
+        - text: Submit via
+        - link "privacy@kalinda.ai" [ref=e183] [cursor=pointer]:
+          - /url: mailto:privacy@kalinda.ai
+        - text: . We will verify identity and respond within 45 days (with one permitted extension of 45 days).
+      - listitem [ref=e184]:
+        - strong [ref=e185]: "Appeals:"
+        - text: You may appeal within 60 days; we will respond with reasons and how to contact your state AG if you disagree.
+      - listitem [ref=e186]:
+        - strong [ref=e187]: "Sensitive Data:"
+        - text: We do not sell or share personal data, do not process biometric identifiers for identification, and do not conduct targeted advertising or profiling.
+    - heading "Biometric Information Privacy Laws" [level=3] [ref=e188]
+    - paragraph [ref=e189]: We comply with biometric privacy laws wherever applicable, including Illinois' Biometric Information Privacy Act (BIPA), Texas' Capture or Use of Biometric Identifier Act (CUBI), Washington's Biometric Data Law (RCW 19.375), and similar regulations in other jurisdictions.
+    - heading "Health Privacy Laws Supplementing HIPAA" [level=3] [ref=e190]
+    - paragraph [ref=e191]: We also comply with state health privacy laws that supplement or exceed HIPAA where applicable, including Washington's My Health My Data Act (MHMDA), Nevada's Consumer Health Data Privacy Law, California's Confidentiality of Medical Information Act (CMIA), and health data provisions within the comprehensive privacy laws listed above.
+    - heading "11. International Data Transfers" [level=2] [ref=e192]
+    - paragraph [ref=e193]: We operate solely in the United States, and all user data is stored and processed on servers located in U.S. data centers (primarily through AWS in the U.S.). We do not transfer personal data outside the U.S. If in the future we expand to international markets, we will do so in compliance with applicable data transfer laws.
+    - heading "12. Changes to This Privacy Policy" [level=2] [ref=e194]
+    - paragraph [ref=e195]: We may update this Privacy Policy from time to time. If we make a material change, we will notify you via email or a prominent notice on the Platform at least 30 days before the changes take effect. We will also update the "Effective Date" at the top of the Policy. Your continued use of the Platform after any changes become effective constitutes acceptance of the updated Policy.
+    - heading "13. Governing Law and Choice of Law" [level=2] [ref=e196]
+    - paragraph [ref=e197]: This Privacy Policy shall be governed by and construed in accordance with the laws of the State of Washington, USA, without regard to its conflict of laws principles. Any legal action or proceeding arising under this Privacy Policy will be brought exclusively in the federal or state courts located in the State of Washington. This Privacy Policy does not limit your ability to file a complaint with a governmental authority (such as a state Attorney General or the FTC).
+    - heading "14. Contact Us" [level=2] [ref=e198]
+    - paragraph [ref=e199]: "For any questions, concerns, or requests regarding this Privacy Policy or your personal information, please contact us at:"
+    - paragraph [ref=e201]:
+      - strong [ref=e202]: Kalinda Inc.
+      - text: 15947 NE 120th St.
+      - text: Redmond, WA 98052
+      - text: "Email:"
+      - link "security@kalinda.ai" [ref=e203] [cursor=pointer]:
+        - /url: mailto:security@kalinda.ai
+  - contentinfo [ref=e205]:
+    - generic [ref=e206]:
+      - paragraph [ref=e207]: Join active leadership firms using Kalinda.
+      - link "Request a Demo" [ref=e208] [cursor=pointer]:
+        - /url: https://calendly.com/kalinda-ai/book-a-demo
+    - navigation [ref=e210]:
+      - generic [ref=e211]:
+        - link "Trust Center" [ref=e212] [cursor=pointer]:
+          - /url: https://trust.delve.co/kalinda
+        - link "Privacy Policy" [ref=e213] [cursor=pointer]:
+          - /url: privacy.html
+        - link "Contact Us" [ref=e214] [cursor=pointer]:
+          - /url: mailto:hello@kalinda.ai
+    - paragraph [ref=e216]: © Kalinda Inc. 2025. All rights reserved.
+    - generic [ref=e218]: kalinda

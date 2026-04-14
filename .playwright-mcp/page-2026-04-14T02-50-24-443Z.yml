@@ -1,0 +1,38 @@
+- generic [active] [ref=e1]:
+  - navigation [ref=e2]:
+    - link "Kalinda" [ref=e3] [cursor=pointer]:
+      - /url: "#"
+      - img "Kalinda" [ref=e4]
+    - list [ref=e5]:
+      - listitem [ref=e6]:
+        - link "Request Demo" [ref=e7] [cursor=pointer]:
+          - /url: https://calendly.com/kalinda-ai/book-a-demo
+  - generic [ref=e8]:
+    - generic [ref=e14]:
+      - heading "Treat every plaintiff like it's your only one" [level=1] [ref=e15]:
+        - text: Treat every plaintiff
+        - text: like it's your only one
+      - paragraph [ref=e16]:
+        - generic [ref=e17]: Kalinda automatically calls and texts your plaintiffs to collect missing case information, so your team doesn't have to chase follow-ups and cases don't go cold. Then, configure criteria to triage your cases at scale.
+      - link "Request a Demo" [ref=e19] [cursor=pointer]:
+        - /url: https://calendly.com/kalinda-ai/book-a-demo
+    - generic "Live call transcript" [ref=e20]
+  - generic [ref=e21]:
+    - region "Enterprise-grade security and compliance" [ref=e22]:
+      - generic [ref=e23]:
+        - heading "Enterprise-grade security and compliance" [level=2] [ref=e24]
+        - paragraph [ref=e25]: Kalinda is HIPAA certified and built with enterprise-grade security at its core, combining continuous monitoring, advanced encryption, and proactive protection to keep sensitive data safe from breaches and cyber threats.
+    - contentinfo [ref=e26]:
+      - generic [ref=e27]:
+        - paragraph [ref=e28]: Join active leadership firms using Kalinda.
+        - link "Request a Demo" [ref=e29] [cursor=pointer]:
+          - /url: https://calendly.com/kalinda-ai/book-a-demo
+      - navigation [ref=e31]:
+        - generic [ref=e32]:
+          - link "Trust Center" [ref=e33] [cursor=pointer]:
+            - /url: https://trust.delve.co/kalinda
+          - link "Privacy Policy" [ref=e34] [cursor=pointer]:
+            - /url: "#privacy"
+          - link "Contact Us" [ref=e35] [cursor=pointer]:
+            - /url: mailto:hello@kalinda.ai
+      - paragraph [ref=e37]: © Kalinda Inc. 2025. All rights reserved.
