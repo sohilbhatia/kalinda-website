@@ -1768,6 +1768,7 @@ footer {
 }
 
 /* ── Responsive ───────────────────────────────── */
+/* ── Tablet breakpoint ── */
 @media (max-width: 900px) {
   #nav,
   #nav.scrolled { padding: 22px 28px; }
@@ -1862,4 +1863,253 @@ footer {
   }
 
   .chat-text { font-size: 12px; }
+}
+
+/* ── Mobile breakpoint ── */
+@media (max-width: 480px) {
+
+  /* Nav */
+  #nav,
+  #nav.scrolled {
+    padding: 14px 16px;
+  }
+
+  .nav-logo-img { height: 18px; }
+
+  .nav-links { gap: 0; }
+
+  .nav-links li:not(:last-child) { display: none; }
+
+  .nav-cta {
+    font-size: 12px !important;
+    padding: 7px 14px !important;
+  }
+
+  /* Hero */
+  .hero {
+    min-height: 100vh;
+    min-height: 100svh;
+  }
+
+  .hero-content {
+    padding: 100px 20px 0;
+    max-width: 100%;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+    letter-spacing: -1px;
+    line-height: 1.1;
+    margin-bottom: 18px;
+  }
+
+  .hero-sub {
+    font-size: 13px;
+    line-height: 1.55;
+    margin-bottom: 28px;
+  }
+
+  .hero-sub-primary,
+  .hero-sub-secondary {
+    white-space: normal !important;
+  }
+
+  .btn-outline {
+    font-size: 13px;
+    padding: 10px 22px;
+  }
+
+  /* Chat widget */
+  .hero-chat {
+    width: 260px;
+    height: 280px;
+    right: 8px;
+    bottom: 12px;
+  }
+
+  .hero-chat-track {
+    padding: 12px 10px 20px;
+  }
+
+  .chat-msg {
+    max-width: 220px;
+    padding: 8px 10px;
+    border-radius: 10px;
+  }
+
+  .chat-sender { font-size: 10px; gap: 4px; margin-bottom: 3px; }
+  .chat-sender-avatar { width: 16px; height: 16px; }
+  .chat-text { font-size: 11px; line-height: 1.4; }
+
+  /* How It Works section */
+  .how-it-works {
+    padding: 48px 20px 60px;
+  }
+
+  .hiw-label-row { margin-bottom: 20px; }
+
+  .hiw-header {
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin-bottom: 28px;
+  }
+
+  .hiw-header h2 {
+    font-size: 28px;
+  }
+
+  .hiw-subtitle {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .hiw-tabs {
+    gap: 0;
+    margin-bottom: 20px;
+  }
+
+  .hiw-tab {
+    padding: 10px 4px;
+  }
+
+  .hiw-tab-text {
+    font-size: 10px;
+    letter-spacing: 0;
+  }
+
+  .hiw-slide.active {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .hiw-slide-visual {
+    min-height: 260px;
+    padding: 24px 16px;
+    border-radius: 12px 12px 0 0;
+  }
+
+  .hiw-slide-text {
+    padding: 24px 20px;
+    border-radius: 0 0 12px 12px;
+  }
+
+  .hiw-slide-text h3 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+
+  .hiw-slide-text p {
+    font-size: 13px;
+    line-height: 1.6;
+  }
+
+  /* Mock UI panels */
+  .hiw-mock {
+    transform: scale(0.85);
+    transform-origin: top center;
+  }
+
+  /* Enriched section */
+  .enriched {
+    padding: 40px 20px 48px;
+  }
+
+  .enriched-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .enriched-title {
+    font-size: 28px;
+  }
+
+  .enriched-desc,
+  .enriched-point p {
+    font-size: 14px;
+  }
+
+  .enriched-point h4 {
+    font-size: 16px;
+  }
+
+  /* FAQ */
+  .faq {
+    padding: 40px 20px 60px;
+  }
+
+  .faq-title {
+    font-size: 28px;
+  }
+
+  .faq-q {
+    font-size: 14px;
+    padding: 16px 0;
+  }
+
+  .faq-a {
+    font-size: 13px;
+  }
+
+  /* Security section */
+  .security-section {
+    padding: 48px 20px 40px;
+  }
+
+  .security-section h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+
+  .security-section p {
+    font-size: 14px;
+  }
+
+  /* Footer */
+  .footer-intro {
+    padding: 32px 20px 24px;
+    gap: 14px;
+  }
+
+  .footer-tagline {
+    font-size: 14px;
+  }
+
+  .footer-top {
+    padding: 32px 20px 28px;
+  }
+
+  .footer-nav {
+    gap: 32px;
+  }
+
+  .footer-col a {
+    font-size: 13px;
+  }
+
+  .footer-bottom {
+    padding: 16px 20px;
+  }
+
+  .footer-brand {
+    height: 0.7em;
+    font-size: clamp(80px, 22vw, 160px);
+  }
+
+  /* Company page */
+  .company-letter {
+    padding: 90px 20px 48px;
+  }
+
+  .company-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .company-text p {
+    font-size: 14px;
+  }
+
+  .company-photo {
+    max-height: 300px;
+  }
 }
