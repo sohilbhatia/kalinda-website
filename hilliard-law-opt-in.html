@@ -92,10 +92,27 @@
     }
 
     .consent {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
       font-size: 12px;
       line-height: 1.55;
       color: #4b5563;
       margin-bottom: 20px;
+      cursor: pointer;
+    }
+
+    .consent input[type="checkbox"] {
+      width: 16px;
+      height: 16px;
+      margin-top: 2px;
+      flex-shrink: 0;
+      accent-color: #2b2b2b;
+      cursor: pointer;
+    }
+
+    .consent-text {
+      flex: 1;
     }
 
     .consent a {
@@ -175,16 +192,10 @@
     }
 
     .powered-by-logo {
-      width: 22px;
       height: 22px;
-      object-fit: contain;
-    }
-
-    .powered-by-name {
-      font-size: 13px;
-      font-weight: 700;
-      letter-spacing: 0.02em;
-      color: #111827;
+      width: auto;
+      display: block;
+      filter: invert(1) brightness(0);
     }
   </style>
 </head>
@@ -216,18 +227,18 @@
         <textarea id="message" name="message" rows="5"></textarea>
       </div>
 
-      <p class="consent">
-        By submitting, you authorize Hilliard Law to text the provided number in response to your inquiry, possibly using automated means. Message &amp; data rates may apply. Text HELP for help or STOP to opt out. Consent is not a condition of purchase. See <a href="https://www.kalinda.ai/sms-terms.html" target="_blank" rel="noopener noreferrer">terms</a> and <a href="https://www.kalinda.ai/privacy.html" target="_blank" rel="noopener noreferrer">privacy policy</a>.
-      </p>
+      <label class="consent" for="consent">
+        <input type="checkbox" id="consent" name="consent" required />
+        <span class="consent-text">By submitting, you authorize Hilliard Law to text the provided number in response to your inquiry, possibly using automated means. Message &amp; data rates may apply. Text HELP for help or STOP to opt out. Consent is not a condition of purchase. See <a href="https://www.kalinda.ai/sms-terms.html" target="_blank" rel="noopener noreferrer">terms</a> and <a href="https://www.kalinda.ai/privacy.html" target="_blank" rel="noopener noreferrer">privacy policy</a>.</span>
+      </label>
 
-      <button type="submit" class="submit-btn">Text Us</button>
+      <button type="submit" class="submit-btn">Submit</button>
     </form>
 
     <div class="powered-by">
       <span class="powered-by-text">Powered by</span>
       <span class="powered-by-brand">
-        <img src="ktree_circle.png" alt="" class="powered-by-logo" width="22" height="22" aria-hidden="true" />
-        <span class="powered-by-name">kalinda inc</span>
+        <img src="kalinda_white.png" alt="Kalinda" class="powered-by-logo" width="120" height="22" />
       </span>
     </div>
   </div>
